@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/spd"
+    android:orientation="vertical"
+    tools:context=".MenuLab2">
+
+    <Button
+        android:id="@+id/il"
+        android:layout_width="257dp"
+        android:layout_marginStart="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="15dp"
+        android:text="Instalasi Listrik"
+        android:textColor="@color/font"></Button>
+
+    <Button
+        android:id="@+id/ml"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="15dp"
+        android:text="Mesin Listrik"
+        android:textColor="@color/font"></Button>
+
+    <Button
+        android:id="@+id/ipl"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="60dp"
+        android:text="Instrumen dan Pengukuran Listrik"
+        android:textColor="@color/font"></Button>
+
+    <Button
+        android:id="@+id/pcl"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:text="PCL"
+        android:textColor="@color/font">
+    </Button>
+
+</LinearLayout>

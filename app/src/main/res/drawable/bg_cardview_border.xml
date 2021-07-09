@@ -1,0 +1,10 @@
+<!-- image_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke
+        android:width="3dp"
+        android:color="#FFB300"  />
+    <gradient
+        android:angle="45"/>
+    <corners
+        android:radius="10dp" />
+</shape>

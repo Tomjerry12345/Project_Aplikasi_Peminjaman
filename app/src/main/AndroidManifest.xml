@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loser.tugasvoice">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Login_Register.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_4"
+        android:label="Lab pendidikan teknik elktro"
+        android:roundIcon="@mipmap/logo_4"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".laporan"/>
+        <activity android:name=".listbarangrusak"/>
+        <activity android:name=".detailbarangrusak" />
+        <activity android:name=".tambahbarangrusak"/>
+        <activity android:name=".activity.utama.pengembalian.FormPengembalianActivity"/>
+        <activity
+            android:name=".BarangActivity2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MenuLab2" />
+        <activity android:name=".activity.utama.menu_barang.MenuBarangActivity" />
+        <activity android:name=".EditActivity" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Manur Client" />
+        <activity
+            android:name=".ListActivity2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.autentikasi.login.LoginAdminActivity" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".activity.autentikasi.registrasi.registrasiClient" />
+        <activity android:name=".activity.autentikasi.login.LoginClientActivity" />
+        <activity android:name=".activity.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.utama.MainActivity"
+            android:label="Menu Admin" />
+        <activity
+            android:name=".activity.utama.barang_keluar.BarangKeluarActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PinajamActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LaporanActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Login_Register.Login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_Register.DaftarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarangActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailBarangPinjman"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DetailBarang"
+            android:theme="@style/AppTheme" />
+    </application>
+
+
+</manifest>

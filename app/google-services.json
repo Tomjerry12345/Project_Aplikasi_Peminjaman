@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "320027030482",
+    "firebase_url": "https://inventarislab-f3c50-default-rtdb.firebaseio.com",
+    "project_id": "inventarislab-f3c50",
+    "storage_bucket": "inventarislab-f3c50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320027030482:android:d77f6fd21f920b3dcb0e0b",
+        "android_client_info": {
+          "package_name": "com.example.loser.tugasvoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320027030482-tqmidibgcqnvs6tqe58vvahvn6uht9pv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loser.tugasvoice",
+            "certificate_hash": "fe57506b6c871cab301eb04b7c48337b7a24fff9"
+          }
+        },
+        {
+          "client_id": "320027030482-1n25vgvluar06u59ab7q8cfbmftaoc55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXfRY3LWTaHOIV6oB0k5NxQ5AxN98bq00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320027030482-1n25vgvluar06u59ab7q8cfbmftaoc55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
